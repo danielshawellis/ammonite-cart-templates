@@ -13,3 +13,14 @@
 if ( ! defined( 'ABSPATH' ) ) {
   die;
 }
+
+/*
+  Container Class
+*/
+if ( !class_exists( 'Ammonite_Cart_Templates' ) ) {
+  class Ammonite_Cart_Templates {
+
+  }
+
+  // The below functions run on plugin load
+}
