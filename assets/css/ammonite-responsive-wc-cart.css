@@ -1,0 +1,60 @@
+@media screen and (max-width: 767px) {
+  table.woocommerce-cart-form__contents td, table.woocommerce-cart-form__contents tbody, table.woocommerce-cart-form__contents {
+    display: block;
+  }
+  table.woocommerce-cart-form__contents thead {
+    visibility: collapse;
+  }
+  .woocommerce table.cart td.product-thumbnail {
+    display: block;
+  }
+  .woocommerce table.shop_table.cart tr td.product-name, .woocommerce table.cart td.product-price {
+    width: 100%;
+  }
+  .woocommerce table.cart a img, .woocommerce #content table.cart a img, .woocommerce-page table.cart a img, .woocommerce-page #content table.cart a img {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .woocommerce table.cart td.product-name {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .woocommerce table.cart td.product-price::before {
+    content: "Price:";
+    float: left;
+    padding-left: 15px;
+  }
+  .woocommerce table.cart td.product-price span.woocommerce-Price-amount {
+    display: block;
+    width: 100%;
+    padding-right: 15px;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 900;
+  }
+  .woocommerce table.cart .product-quantity::before {
+    content: "Quantity:";
+    float: left;
+    padding-left: 15px;
+  }
+  .woocommerce table.cart .product-quantity {
+    text-align: right;
+  }
+  .woocommerce table.cart .amdv-quantity-input-plus-minus-container {
+    display: inline-block;
+  }
+  .woocommerce table.cart .product-subtotal::before {
+    content: "Item Subtotal:";
+    float: left;
+    padding-left: 15px;
+  }
+  .woocommerce table.cart .product-subtotal {
+    text-align: right;
+    font-weight: 400;
+    color: #717a81;
+  }
+  .woocommerce table.cart .product-subtotal .subscription-details {
+    padding-right: 15px;
+  }
+}
